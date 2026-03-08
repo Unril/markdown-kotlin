@@ -1,0 +1,49 @@
+{
+  "name": "markdown-kotlin",
+  "displayName": "Markdown Kotlin Code Block Support",
+  "description": "Kotlin fenced code blocks syntax highlighting for Markdown",
+  "version": "0.0.1",
+  "publisher": "nickofedev",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unril/markdown-kotlin"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.100.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "grammars": [
+      {
+        "scopeName": "markdown.kotlin.codeblock",
+        "path": "./syntaxes/kotlin-codeblock.json",
+        "injectTo": [
+          "text.html.markdown"
+        ],
+        "embeddedLanguages": {
+          "meta.embedded.block.kotlin": "kotlin"
+        }
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@types/vscode": "^1.100.0",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.39.3",
+    "typescript": "^5.9.3",
+    "typescript-eslint": "^8.56.1"
+  }
+}
