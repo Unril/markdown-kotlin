@@ -1,13 +1,17 @@
 {
   "name": "markdown-kotlin",
-  "displayName": "Markdown Kotlin Code Block Support",
-  "description": "Kotlin fenced code blocks syntax highlighting for Markdown",
-  "version": "0.0.2",
+  "displayName": "Markdown Kotlin Code Blocks",
+  "description": "Syntax highlighting for Kotlin code blocks in Markdown (```kotlin``` and ```kt```)",
+  "version": "0.0.3",
   "publisher": "NikolaiFedorov",
   "repository": {
     "type": "git",
     "url": "https://github.com/Unril/markdown-kotlin"
   },
+  "bugs": {
+    "url": "https://github.com/Unril/markdown-kotlin/issues"
+  },
+  "homepage": "https://github.com/Unril/markdown-kotlin",
   "license": "MIT",
   "icon": "img/icon.png",
   "galleryBanner": {
@@ -18,7 +22,16 @@
     "vscode": "^1.100.0"
   },
   "categories": [
-    "Programming Languages"
+    "Programming Languages",
+    "Other"
+  ],
+  "keywords": [
+    "markdown",
+    "kotlin",
+    "syntax highlighting",
+    "markdown code block",
+    "kotlin markdown",
+    "code fences"
   ],
   "contributes": {
     "grammars": [

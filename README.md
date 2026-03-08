@@ -1,4 +1,4 @@
-# Markdown Kotlin Code Block Support
+# Markdown Kotlin Code Blocks
 
 ![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/NikolaiFedorov.markdown-kotlin)
 ![Installs](https://img.shields.io/visual-studio-marketplace/i/NikolaiFedorov.markdown-kotlin)
@@ -34,13 +34,13 @@ fun main() {
 
 ## Installation
 
-Install from the [VS Code Marketplace][marketplace].
+Install from the [VS Code Marketplace][marketplace] or [Open VSX][openvsx].
 
-Or search for "Markdown Kotlin Code Block Support" in the Extensions view.
+Or search for "Markdown Kotlin Code Blocks" in the Extensions view.
 
 ## Requirements
 
-A Kotlin extension that provides the `source.kotlin` TextMate grammar must be installed, for example [Kotlin Language (fwcd)][kotlin-ext].
+A Kotlin extension that provides the `source.kotlin` TextMate grammar must be installed, for example [Kotlin Language (fwcd)][kotlin-ext] or [Kotlin LSP][kotlin-lsp].
 
 Without it the fenced block will be recognized but not highlighted.
 
@@ -53,6 +53,11 @@ This extension has no settings.
 None yet. Please report bugs in the [issue tracker][issues].
 
 ## Release Notes
+
+### 0.0.3
+
+- Marketplace metadata improvements (keywords, description, categories)
+- Open VSX and Kotlin LSP links
 
 ### 0.0.2
 
@@ -72,6 +77,8 @@ Pull requests are welcome. Repository: [github.com/Unril/markdown-kotlin][repo]
 MIT
 
 [marketplace]: https://marketplace.visualstudio.com/items?itemName=NikolaiFedorov.markdown-kotlin
+[openvsx]: https://open-vsx.org/extension/NikolaiFedorov/markdown-kotlin
 [kotlin-ext]: https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin
+[kotlin-lsp]: https://github.com/Kotlin/kotlin-lsp/
 [issues]: https://github.com/Unril/markdown-kotlin/issues
 [repo]: https://github.com/Unril/markdown-kotlin
