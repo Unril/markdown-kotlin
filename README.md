@@ -1,45 +1,72 @@
 # Markdown Kotlin Code Block Support
 
-Adds syntax highlighting for Kotlin fenced code blocks in Markdown files.
+![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/nickofedev.markdown-kotlin)
+![Installs](https://img.shields.io/visual-studio-marketplace/i/nickofedev.markdown-kotlin)
+
+Kotlin syntax highlighting for fenced code blocks inside Markdown.
+
+Supports ` ```kotlin ` and ` ```kt ` info strings.
+
+Dark theme:
+
+<img src="https://github.com/Unril/markdown-kotlin/blob/master/img/dark_theme.png?raw=true" width="700" alt="Dark theme">
+
+Light theme:
+
+<img src="https://github.com/Unril/markdown-kotlin/blob/master/img/light_theme.png?raw=true" width="700" alt="Light theme">
 
 ## Features
 
-- Highlights ` ```kotlin ` and ` ```kt ` fenced code blocks in the Markdown editor
-- Uses a TextMate injection grammar, the standard VS Code mechanism for embedded languages
-- Maps embedded regions to language id `kotlin` so editor features (bracket matching, comments, snippets) work inside the block
+- Kotlin highlighting in Markdown code fences
+- Works with the standard Markdown editor
+- Zero configuration
+- Bracket matching, comments, and snippets work inside the block
 
-| Dark theme | Light theme |
-|---|---|
-| ![Dark theme](https://raw.githubusercontent.com/unril/markdown-kotlin/main/img/dark_theme.png) | ![Light theme](https://raw.githubusercontent.com/unril/markdown-kotlin/main/img/light_theme.png) |
-
-## Requirements
-
-A Kotlin extension that provides the `source.kotlin` TextMate grammar must be installed. For example:
-
-- [Kotlin Language (fwcd)](https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin)
-
-Without it, the fenced block will be recognized but not highlighted.
-
-## Usage
-
-Open any Markdown file containing a Kotlin fenced code block:
+## Example
 
 ````markdown
 ```kotlin
 fun main() {
-    println("hello")
+    println("Hello Kotlin")
 }
 ```
 ````
 
-The code inside the fence will be tokenized using the Kotlin grammar.
+## Installation
 
-To verify, run "Developer: Inspect Editor Tokens and Scopes" and click inside the block. You should see scopes from `source.kotlin` within `meta.embedded.block.kotlin`.
+Install from the [VS Code Marketplace][marketplace].
 
-## How it works
+Or search for "Markdown Kotlin Code Block Support" in the Extensions view.
 
-The extension contributes a single injection grammar (`markdown.kotlin.codeblock`) injected into `text.html.markdown`. No commands, no activation logic, just a grammar file.
+## Requirements
+
+A Kotlin extension that provides the `source.kotlin` TextMate grammar must be installed, for example [Kotlin Language (fwcd)][kotlin-ext].
+
+Without it the fenced block will be recognized but not highlighted.
+
+## Extension Settings
+
+This extension has no settings.
+
+## Known Issues
+
+None yet. Please report bugs in the [issue tracker][issues].
+
+## Release Notes
+
+### 0.0.1
+
+Initial release.
+
+## Contributing
+
+Pull requests are welcome. Repository: [github.com/Unril/markdown-kotlin][repo]
 
 ## License
 
 MIT
+
+[marketplace]: https://marketplace.visualstudio.com/items?itemName=nickofedev.markdown-kotlin
+[kotlin-ext]: https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin
+[issues]: https://github.com/Unril/markdown-kotlin/issues
+[repo]: https://github.com/Unril/markdown-kotlin
