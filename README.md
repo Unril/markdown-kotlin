@@ -9,11 +9,11 @@ Supports ` ```kotlin ` and ` ```kt ` info strings.
 
 Dark theme:
 
-<img src="https://github.com/Unril/markdown-kotlin/blob/master/img/dark_theme.png?raw=true" width="700" alt="Dark theme">
+<img src="https://raw.githubusercontent.com/Unril/markdown-kotlin/master/img/dark_theme.png" alt="Dark theme">
 
 Light theme:
 
-<img src="https://github.com/Unril/markdown-kotlin/blob/master/img/light_theme.png?raw=true" width="700" alt="Light theme">
+<img src="https://raw.githubusercontent.com/Unril/markdown-kotlin/master/img/light_theme.png" alt="Light theme">
 
 ## Features
 
@@ -53,6 +53,11 @@ This extension has no settings.
 None yet. Please report bugs in the [issue tracker][issues].
 
 ## Release Notes
+
+### 0.0.2
+
+- Extension icon and gallery banner
+- README rewritten for Marketplace
 
 ### 0.0.1
 

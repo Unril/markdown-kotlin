@@ -15,4 +15,5 @@ vsc-extension-quickstart.md
 package-lock.json
 DEMO.md
 img/**
+!img/icon.png
 *.vsix

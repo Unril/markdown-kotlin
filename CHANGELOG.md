@@ -4,6 +4,20 @@ All notable changes to the "markdown-kotlin" extension will be documented in thi
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/).
 
+## [0.0.2] - 2026-03-08
+
+### Added
+
+- Extension icon
+- Gallery banner with Kotlin purple
+- Marketplace badges in README
+
+### Changed
+
+- README rewritten for Marketplace template
+- Publisher updated to NikolaiFedorov
+- Image URLs switched to raw.githubusercontent.com
+
 ## [0.0.1] - 2026-03-08
 
 ### Added
