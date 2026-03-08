@@ -1,7 +1,7 @@
 # Markdown Kotlin Code Block Support
 
-![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/nickofedev.markdown-kotlin)
-![Installs](https://img.shields.io/visual-studio-marketplace/i/nickofedev.markdown-kotlin)
+![VS Code Marketplace](https://img.shields.io/visual-studio-marketplace/v/NikolaiFedorov.markdown-kotlin)
+![Installs](https://img.shields.io/visual-studio-marketplace/i/NikolaiFedorov.markdown-kotlin)
 
 Kotlin syntax highlighting for fenced code blocks inside Markdown.
 
@@ -66,7 +66,7 @@ Pull requests are welcome. Repository: [github.com/Unril/markdown-kotlin][repo]
 
 MIT
 
-[marketplace]: https://marketplace.visualstudio.com/items?itemName=nickofedev.markdown-kotlin
+[marketplace]: https://marketplace.visualstudio.com/items?itemName=NikolaiFedorov.markdown-kotlin
 [kotlin-ext]: https://marketplace.visualstudio.com/items?itemName=fwcd.kotlin
 [issues]: https://github.com/Unril/markdown-kotlin/issues
 [repo]: https://github.com/Unril/markdown-kotlin

@@ -3,7 +3,7 @@
   "displayName": "Markdown Kotlin Code Block Support",
   "description": "Kotlin fenced code blocks syntax highlighting for Markdown",
   "version": "0.0.1",
-  "publisher": "nickofedev",
+  "publisher": "NikolaiFedorov",
   "repository": {
     "type": "git",
     "url": "https://github.com/Unril/markdown-kotlin"
